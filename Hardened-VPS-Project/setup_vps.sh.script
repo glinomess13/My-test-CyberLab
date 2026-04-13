@@ -1,0 +1,28 @@
+#!/bin/bash
+
+set -e
+
+SSH_PORT=49221
+PANEL_PORT=48299
+
+echo "Starting VPS Security Hardening..."
+
+apt update && apt upgrade -y
+apt install -y ufw fail2ban curl wget
+
+echo "Configuring SSH on port $SSH_PORT..."
+sed -i "s/#Port 22/Port $SSH_PORT/" /etc/ssh/sshd_config
+systemctl restart ssh
+
+echo "Configuring Firewall rules..."
+ufw allow $SSH_PORT/tcp
+ufw allow $PANEL_PORT/tcp
+ufw allow 443/tcp
+ufw allow 80/tcp
+ufw --force enable
+
+echo "Installing 3X-UI Control Panel..."
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+
+echo "Post-install: Restore x-ui.db and jail.local to their respective directories."
+echo "Setup complete. Reconnect via SSH port $SSH_PORT."

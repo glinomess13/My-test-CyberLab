@@ -11,7 +11,7 @@ Welcome to my technical repository. This project serves as a comprehensive log o
     *   **SSH Hardening**: Port migration (to 49221), socket masking, and disabling password authentication.
     *   **Active Defense**: Configured Fail2Ban for automated IP banning.
     *   **Stealth Networking**: Deployed VLESS + XTLS-Reality tunnel to obfuscate traffic under legitimate TLS signatures (NVIDIA/Microsoft).
-    *   **Automation**: Developing a Bash-script for automated "One-Click" secure infrastructure deployment.
+    
 
 ### 2. Infrastructure as Code (IaC) Achievement:
 Automated Deployment: Developed a custom Bash script for "One-Click" server provisioning.

@@ -38,6 +38,6 @@ I am a self-taught enthusiast currently pursuing a career in **DevSecOps**. My j
 ### My Path:
 *   **Current Focus:** Mastering Linux administration, network security, and infrastructure automation.
 *   **Background:** Web development and content administration, which allows me to approach security from a web-centric perspective.
-*   **Future Goals:** I am actively preparing for an **Ausbildung (FISI)** in Germany or completing my degree in **Computer Science** at a Ukrainian university.
+*   **Future Goals:** I am actively preparing for an **Ausbildung (FISI)** in Germany or completing my degree in **CyberSecurity** at a Ukrainian university.
 
 My background in web development allows me to bridge the gap between "building" and "securing," which is the core essence of DevSecOps. I am constantly updating this repository as I learn new technologies. Stay tuned!

@@ -11,7 +11,7 @@ apt update && apt upgrade -y
 apt install -y ufw fail2ban curl wget
 
 echo "Configuring SSH on port $SSH_PORT..."
-sed -i "s/#Port 22/Port $SSH_PORT/" /etc/ssh/sshd_config
+sed -i "s/.*Port .*/Port $SSH_PORT/g" /etc/ssh/sshd_config
 systemctl restart ssh
 
 echo "Configuring Firewall rules..."

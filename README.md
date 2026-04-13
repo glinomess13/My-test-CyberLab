@@ -26,3 +26,9 @@ Verification: Validated the script's logic in a local virtualized staging enviro
 *   **TryHackMe**: Completed rooms (e.g., "Break Out The Cage") focused on privilege escalation.
 *   **Metasploitable 2**: Network reconnaissance and service enumeration using Nmap.
 
+Tech Stack:
+OS: Ubuntu Server, Kali Linux.
+Tools: Nmap, Wireshark, Fail2Ban, UFW, Metasploit, CyberChef.
+Protocols: SSH, VLESS, XTLS-Reality, TCP/UDP.
+Languages: Bash scripting.
+

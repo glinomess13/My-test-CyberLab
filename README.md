@@ -2,6 +2,15 @@
 
 Welcome to my technical repository. This project serves as a comprehensive log of my hands-on experience in CyberSecurity.
 
+👨‍💻 About Me
+I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journey in IT began with Frontend Development (HTML/CSS/JS) and long-term WordPress Administration, which gave me a deep understanding of the web ecosystem from the inside out.
+
+My Path:
+Current Focus: Mastering Linux administration, network security, and infrastructure automation.
+Background: Web development and content administration, which allows me to approach security from a web-centric perspective.
+Future Goals: I am actively preparing for an Ausbildung (FISI) in Germany or completing my degree in CyberSecurity at a Ukrainian university.
+My background in web development allows me to bridge the gap between "building" and "securing," which is the core essence of DevSecOps. I am constantly updating this repository as I learn new technologies. Stay tuned!
+
 ## 🚀 Projects Overview:
 
 ### 1. Hardened VPS Deployment (Active Project)
@@ -31,13 +40,3 @@ OS: Ubuntu Server, Kali Linux.
 Tools: Nmap, Wireshark, Fail2Ban, UFW, Metasploit, CyberChef.
 Protocols: SSH, VLESS, XTLS-Reality, TCP/UDP.
 Languages: Bash scripting.
-
-## 👨‍💻 About Me
-I am a self-taught enthusiast currently pursuing a career in **DevSecOps**. My journey in IT began with **Frontend Development** (HTML/CSS/JS) and long-term **WordPress Administration**, which gave me a deep understanding of the web ecosystem from the inside out.
-
-### My Path:
-*   **Current Focus:** Mastering Linux administration, network security, and infrastructure automation.
-*   **Background:** Web development and content administration, which allows me to approach security from a web-centric perspective.
-*   **Future Goals:** I am actively preparing for an **Ausbildung (FISI)** in Germany or completing my degree in **CyberSecurity** at a Ukrainian university.
-
-My background in web development allows me to bridge the gap between "building" and "securing," which is the core essence of DevSecOps. I am constantly updating this repository as I learn new technologies. Stay tuned!

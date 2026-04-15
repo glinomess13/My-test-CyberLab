@@ -3,7 +3,7 @@
 Welcome to my technical repository. This project serves as a comprehensive log of my hands-on experience in CyberSecurity.
 
 👨‍💻 About Me
-I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journey in IT began with Frontend Development (HTML/CSS/JS) and long-term WordPress Administration, which gave me a deep understanding of the web ecosystem from the inside out.
+I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journey in IT began with Frontend Development (HTML/CSS/JS) and long-term WordPress Administration, little bit SEO(shopify,horoshop), which gave me a deep understanding of the web ecosystem from the inside out.
 
 ## 🌐 Languages
 *   **Ukrainian / Russian:** Native

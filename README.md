@@ -12,11 +12,8 @@ I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journ
 
 ## 🛠️ Tech Stack:
 OS: Ubuntu Server, Kali Linux. 
-
 Tools: Nmap, Wireshark, Fail2Ban, UFW, Metasploit, CyberChef. 
-
 Protocols: SSH, VLESS, XTLS-Reality, TCP/UDP. 
-
 Languages: Bash scripting.
 
 

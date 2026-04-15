@@ -10,6 +10,9 @@ I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journ
 *   **German:** B2 (learning now)
 *   **English:** B1 (from school)
 
+🛠️ Tech Stack:
+OS: Ubuntu Server, Kali Linux. Tools: Nmap, Wireshark, Fail2Ban, UFW, Metasploit, CyberChef. Protocols: SSH, VLESS, XTLS-Reality, TCP/UDP. Languages: Bash scripting.
+
 
 ## 🎯 My Path:
 Current Focus: Mastering Linux administration, network security, and infrastructure automation.
@@ -43,8 +46,4 @@ Verification: Validated the script's logic in a local virtualized staging enviro
 *   **TryHackMe**: Completed rooms (e.g., "Break Out The Cage") focused on privilege escalation.
 *   **Metasploitable 2**: Network reconnaissance and service enumeration using Nmap.
 
-## 🛠️ Tech Stack:
-OS: Ubuntu Server, Kali Linux.
-Tools: Nmap, Wireshark, Fail2Ban, UFW, Metasploit, CyberChef.
-Protocols: SSH, VLESS, XTLS-Reality, TCP/UDP.
-Languages: Bash scripting.
+

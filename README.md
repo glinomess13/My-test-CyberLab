@@ -10,7 +10,7 @@ I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journ
 *   **German:** B2 (learning now)
 *   **English:** B1 (from school)
 
-##🎯 My Path:
+## 🎯 My Path:
 Current Focus: Mastering Linux administration, network security, and infrastructure automation.
 Background: Web development and content administration, which allows me to approach security from a web-centric perspective.
 Future Goals: I am actively preparing for an Ausbildung (FISI) in Germany or completing my degree in CyberSecurity at a Ukrainian university.

@@ -5,8 +5,10 @@ Welcome to my technical repository. This project serves as a comprehensive log o
 👨‍💻 About Me
 I am a self-taught enthusiast currently pursuing a career in DevSecOps. My journey in IT began with Frontend Development (HTML/CSS/JS) and long-term WordPress Administration, which gave me a deep understanding of the web ecosystem from the inside out.
 
-I speak: Ukraine, russian - native
-English(b1), Deutsch(b2) 
+## 🌐 Languages
+*   **Ukrainian / Russian:** Native
+*   **German:** B2 (learning now)
+*   **English:** B1 (from school)
 
 My Path:
 Current Focus: Mastering Linux administration, network security, and infrastructure automation.

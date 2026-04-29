@@ -1,4 +1,4 @@
-🚀 VPS Security Hardening & VPN Automation 2026
+🚀 VPS Security Hardening & VPN Automation
 Professional script for rapid deployment of secure, high-performance Linux infrastructure. Optimized for private VPN services (VLESS/Reality) and system administration.
 
 ✨ Key Features

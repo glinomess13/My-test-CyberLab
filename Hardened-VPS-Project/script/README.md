@@ -10,7 +10,7 @@ Installs and auto-configures Fail2Ban for intrusion prevention.
 Disables IPv6 to prevent data leaks and bypass security holes.
 
 ⚡ Performance Optimization:
-Enables Google BBR (Bottleneck Bandwidth and RTT) to increase network speed by up to 2-3x.
+Enables Google BBR (Bottleneck Bandwidth and RTT) to increase network speed by up.
 Enables IP Forwarding for seamless VPN gateway performance.
 Optimizes kernel parameters for high-load network traffic.
 
@@ -19,7 +19,7 @@ Full system update and essential tools installation (net-tools, htop, curl, etc.
 Automatic installation of the 3X-UI control panel for VPN management.
 
 🛠 Installation
-Get a clean VPS (Ubuntu 22.04 recommended).
+Get a clean VPS.
 Download and run the script:
 bash
 wget (https://github.com/glinomess13/My-test-CyberLab/blob/main/Hardened-VPS-Project/script/setup_vps.sh)

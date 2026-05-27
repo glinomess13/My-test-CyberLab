@@ -11,5 +11,5 @@ This directory focuses on the deployment, hardening, and analysis of an isolated
 
 * **telegramBOT_alert.png:** Live feed showing a storm of over 7.5k automated notifications with recorded attacker IPs and dictionary password attempts.
 * **dozzle_honeypot_live_attack.png:** Centralized log streaming via Dozzle showcasing a live brute-force session from IP `87.251.64.176` logging a fake root environment execution.
-* **honeypot_angrybot.png:** Forensic Docker log evidence capturing an automated botnet failing commands and sending malicious string responses (`—-fuck_you—-`) inside the emulated SSH space.
+* **honeypot_attacker_frustration.png:** Proof of the attacker's frustration. The botnet failed to hack the system and started sending angry messages (`—-fuck_you—-`) as a password, which my honeypot successfully captured and logged.
 * **kali_terminal_log_parsingTOP.png:** Screenshot from the VirtualBox Kali Linux environment showcasing active log parsing via the terminal using advanced Regex (`grep -oE`).

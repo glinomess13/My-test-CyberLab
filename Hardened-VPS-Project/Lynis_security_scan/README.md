@@ -4,7 +4,10 @@ This folder contains the results of a professional security audit of my VPS usin
 
 ### 📊 Results & Value
 * **Final Score:** **66 / 100**
-* **What this means:** For a standard  VPS, a default installation usually scores around 40 points. By manually configuring defensive parameters, I boosted the system's security score to a high enterprise level (66 points).
+### 📊 Benchmarking & Technical Value
+* **Context:** According to Lynis auditing standards, a default baseline installation of a Linux OS typically scores lower due to unconfigured partition layouts (shared root for /var, /tmp), default SSH parameters, and disabled process accounting (`auditd`). 
+* **The Achievement:** By manually remediating core vulnerabilities (implementing SSH port obfuscation, deploying tight Fail2Ban jail thresholds, integrating automated IPset blocklists, and ensuring firewall compliance), I successfully raised the perimeter security baseline to a resilient **66 points**.
+
 
 ### 📸 Documented Evidence Inside
 

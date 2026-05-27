@@ -1,33 +1,48 @@
-🚀 VPS Security Hardening & VPN Automation
-Professional script for rapid deployment of secure, high-performance Linux infrastructure. Optimized for private VPN services (VLESS/Reality) and system administration.
+# 🚀 Ultimate VPS Hardening & DevOps Automation
 
-✨ Key Features
+A professional, production-ready Bash script designed for rapid deployment of secure, high-performance Linux cloud infrastructure. It automates system security hardening, network optimization, Docker ecosystem installation, and private stealth VPN services.
 
-🛡️ Security Hardening:
-Migrates SSH to a non-standard port (49221) to prevent 99% of brute-force attacks.
-Configures UFW Firewall with a strict "deny-all" incoming policy.
-Installs and auto-configures Fail2Ban for intrusion prevention.
-Disables IPv6 to prevent data leaks and bypass security holes.
+## ✨ Key Features
 
-⚡ Performance Optimization:
-Enables Google BBR (Bottleneck Bandwidth and RTT) to increase network speed by up.
-Enables IP Forwarding for seamless VPN gateway performance.
-Optimizes kernel parameters for high-load network traffic.
+### 🛡️ 1. Security Hardening & Compliance
+* **SSH Port Migration:** Automatically moves the SSH daemon from port 22 to a secure hidden port (`49221`) to eliminate 99% of automated botnet scans.
+* **Strict Firewall (UFW):** Implements a tight "deny-by-default" incoming network policy, opening only critical service ports.
+* **Intrusion Prevention:** Installs and enables **Fail2Ban** with defensive jail thresholds against brute-force attacks.
+* **IPv6 Disabling:** Completely disables IPv6 across the system to prevent hidden data leaks and bypass security holes.
 
-📦 Automation:
-Full system update and essential tools installation (net-tools, htop, curl, etc.).
-Automatic installation of the 3X-UI control panel for VPN management.
+### ⚡ 2. Kernel & Network Optimization (The "Pro" part)
+* **Google BBR:** Tunes the Linux kernel parameters (`sysctl.conf`) to enable **Google's Bottleneck Bandwidth and RTT (BBR)** congestion control for maximum network speed and lowest latency.
+* **IP Forwarding:** Enables native IPv4 packet forwarding for smooth VPN gateway routing performance.
 
-🛠 Installation
-Get a clean VPS.
-Download and run the script:
-bash
-wget (https://github.com/glinomess13/My-test-CyberLab/blob/main/Hardened-VPS-Project/script/setup_vps.sh)
+### 📦 3. DevOps & Container Automation
+* **Official Docker Engine:** Automatically fetches GPG keys and installs official Docker Engine and Docker Compose.
+* **Infrastructure Orchestration:** Creates required system directories and automatically launches the multi-container grid (`docker-compose.yml`) if found in the directory.
+* **Stealth VPN Deployment:** Installs the modern **3X-UI panel** to manage private, encrypted **VLESS + XTLS-Reality** proxy tunnels masked as standard HTTPS traffic.
+* **Pre-configured Ports:** Automatically opens standard firewall gates for Portainer (`9000`), Netdata (`19999`), Website (`8080`), and Nginx Proxy Manager (`80/443`).
+
+---
+
+## 🛠️ Installation & Usage
+
+Get a clean **Ubuntu Server** VPS node, log in via SSH, and run the following commands:
+
+```bash
+# Download the automation script
+wget https://raw.githubusercontent.com/glinomess13/My-test-CyberLab/main/Hardened-VPS-Project/script/setup_vps.sh
+
+# Make it executable
 chmod +x setup_vps.sh
+
+# Run the installer as root
 sudo ./setup_vps.sh
+```
+
+---
+
+## ⚠️ Important Post-Install Info
+* **New SSH Connection:** `ssh root@your_server_ip -p 49221`
+* **Docker Ecosystem:** Live and operational post-install.
+* **VPN Management:** Access the 3X-UI control panel via port `54321`.
 
 
-⚠️ Important Post-Install Info
-SSH Port: 49221 (Connect using: ssh root@your_ip -p 49221)
-VPN Protocols: Optimized for VLESS + Reality.
-Firewall: Ports 80, 443, and 54321 are opened by default.
+

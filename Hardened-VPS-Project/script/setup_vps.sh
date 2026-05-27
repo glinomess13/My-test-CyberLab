@@ -73,7 +73,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 echo " Setting up multi-container ecosystem application directories..."
 mkdir -p /root/vps_project/honey-logs
 
-# Checking if docker-compose.yml exists in the parent directory, if so, run it
 if [ -f "../docker-compose.yml" ]; then
     cd ..
     docker compose up -d

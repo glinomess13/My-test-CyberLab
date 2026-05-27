@@ -3,7 +3,7 @@
 This folder contains the results of a professional security audit of my VPS using the industry-standard tool **Lynis**.
 
 ### 📊 Results & Value
-* **Final Score:** **66 / 100** (Hardening Index).
+* **Final Score:** **66 / 100**
 * **What this means:** For a standard  VPS, a default installation usually scores around 35-40 points. By manually configuring defensive parameters, I boosted the system's security score to a high enterprise level (66 points).
 
 ### 📸 Documented Evidence Inside

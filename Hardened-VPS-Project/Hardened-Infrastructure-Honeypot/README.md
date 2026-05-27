@@ -4,7 +4,7 @@ This directory focuses on the deployment, hardening, and analysis of an isolated
 
 ### 📊 Attack Statistics & Incident Response
 * **Total Incident Logs:** **7,556 unique automated attacks**.
-* **Alerting Mechanism:** Real-time data pipeline streaming directly to a Telegram Bot.
+* **How Alerting Works:** In real-time. The moment a hacker tries to log in, a custom script grabs their IP, username, and password, and instantly sends it to my private Telegram Bot. I see the attack on my phone the exact second it happens.
 * **Architecture Flow:** Intrusion Attempt -> Cowrie Container Event Log -> Custom Bash Parser (`script/honey_alert.sh`) -> Telegram Bot API -> Instant Mobile Notification.
 
 ### 📸 Documented Evidence Inside

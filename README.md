@@ -10,7 +10,7 @@ I am a self-taught enthusiast currently pursuing a career in **DevSecOps / Syste
 ### 🌐 Languages
 * **Ukrainian / Russian:** Native
 * **English:** B1 Level from School
-* **German:** B1 Level from VHS course (My goal:B2 course)
+* **German:** B2 Level from VHS course
 ---
 
 ## 🛠️ Tech Stack
